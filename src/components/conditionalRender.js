@@ -1,9 +1,12 @@
 
 import React, { useState } from "react"
-import { motion } from "framer-motion"
+import { motion, useCycle, AnimatePresence } from "framer-motion"
 export default function ConditionalRender() {
-    const [bg, setBg] = useState('#D8D8D8')
-    const [clicking, setClick] = useState(true)
+    const [clicking, setClick] = useState(false)
+    const [bg, setBg] = useCycle(
+        '#D8D8D8',
+        '#7FFF00'
+    )
     return (
         <motion.div
             style={{
@@ -24,30 +27,34 @@ export default function ConditionalRender() {
             }}
             onTap={
                 function () {
-                    setBg('#7FFF00')
+                    setBg()
                     setClick(!clicking)
                 }
             }
         >
-            {clicking ?
-                <motion.img
-                    src={require('../images/check.svg')}
-                    style={{
-                        originX: 0,
-                        originY: 1,
-                        margin: 'auto'
-                    }}
-                    initial={{
-                        opacity: 0,
-                        scale: 0
-                    }}
-                    animate={{
-                        opacity: 1,
-                        scale: 1
-                    }}
-                />
-                : null
-            }
+            <AnimatePresence>
+                {clicking &&
+                    <motion.img
+                        src={require('../images/check.svg')}
+                        style={{
+                            originX: 0,
+                            originY: 1,
+                            margin: 'auto'
+                        }}
+                        initial={{
+                            opacity: 0,
+                            scale: 0
+                        }}
+                        animate={{
+                            opacity: 1,
+                            scale: 1
+                        }}
+                        exit={{
+                            opacity: 0
+                        }}
+                    />
+                }
+            </AnimatePresence>
 
         </motion.div>
     )
