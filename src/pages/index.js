@@ -13,6 +13,7 @@ import TapButton from '../components/tapButton'
 import PanButton from '../components/panButton'
 import SeriesOfUsestate from '../components/seriesOfUsestate'
 import ConditionalRender from '../components/conditionalRender'
+import BatteryButton from '../components/batteryButton'
 
 const IndexPage = () => (
   <Layout>
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <PanButton />
     <SeriesOfUsestate />
     <ConditionalRender />
+    <BatteryButton />
   </Layout>
 )
 
