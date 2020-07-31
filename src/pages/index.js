@@ -14,6 +14,7 @@ import PanButton from '../components/panButton'
 import SeriesOfUsestate from '../components/seriesOfUsestate'
 import ConditionalRender from '../components/conditionalRender'
 import BatteryButton from '../components/batteryButton'
+import BallCarousel from '../components/ballCarousel'
 
 const IndexPage = () => (
   <Layout>
@@ -25,6 +26,7 @@ const IndexPage = () => (
     <SeriesOfUsestate />
     <ConditionalRender />
     <BatteryButton />
+    <BallCarousel />
   </Layout>
 )
 

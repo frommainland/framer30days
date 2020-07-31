@@ -27,6 +27,9 @@ export default function BatteryButton() {
                     scaleY: 1
                 }}
                 key={i}
+                exit={{
+                    scaleY: 0
+                }}
             >
 
             </motion.div >
@@ -95,7 +98,7 @@ export default function BatteryButton() {
                         justifyContent: 'flex-end',
                         flexDirection: 'column-reverse'
                     }}>
-                        {blocks}
+                        <AnimatePresence>{blocks}</AnimatePresence>
                     </div>
                 </div>
 
