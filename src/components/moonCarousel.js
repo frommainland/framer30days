@@ -42,7 +42,7 @@ export default function MoonCarousel() {
                         position: 'absolute',
                         top: '50%',
                         left: '50%',
-                        transform: 'translate(-50%,-50%)'
+                        margin: '-50px 0 0 -50px'
                     }}
                     variants={variants}
                     initial='initial'

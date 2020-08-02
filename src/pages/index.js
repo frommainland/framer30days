@@ -16,6 +16,8 @@ import ConditionalRender from '../components/conditionalRender'
 import BatteryButton from '../components/batteryButton'
 import BallCarousel from '../components/ballCarousel'
 import MoonCarousel from '../components/moonCarousel'
+import Cycle01 from '../components/cycle01'
+import Cycle02 from '../components/cycle02'
 
 const IndexPage = () => (
   <Layout>
@@ -29,6 +31,8 @@ const IndexPage = () => (
     <BatteryButton />
     <BallCarousel />
     <MoonCarousel />
+    <Cycle01 />
+    <Cycle02 />
   </Layout>
 )
 

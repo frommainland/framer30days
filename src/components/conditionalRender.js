@@ -23,7 +23,7 @@ export default function ConditionalRender() {
                 background: bg
             }}
             transition={{
-                duration: .3
+                duration: 2
             }}
             onTap={
                 function () {
