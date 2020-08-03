@@ -21,12 +21,6 @@ export default function Cycle02() {
             transition={{
                 duration: 2
             }}
-            onTap={
-                () => {
-                    setColor()
-                    setBorderColor()
-                }
-            }
         >
             <motion.div
                 style={{
@@ -42,6 +36,15 @@ export default function Cycle02() {
                         duration: 1
                     }
                 }}
+                whileTap={{
+                    scale: 0.98
+                }}
+                onTap={
+                    () => {
+                        setColor()
+                        setBorderColor()
+                    }
+                }
             ></motion.div>
         </motion.div>
     )

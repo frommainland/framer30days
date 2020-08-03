@@ -18,6 +18,8 @@ import BallCarousel from '../components/ballCarousel'
 import MoonCarousel from '../components/moonCarousel'
 import Cycle01 from '../components/cycle01'
 import Cycle02 from '../components/cycle02'
+import Cycle03 from '../components/cycle03'
+import Cycle04 from '../components/cycle04'
 
 const IndexPage = () => (
   <Layout>
@@ -33,6 +35,8 @@ const IndexPage = () => (
     <MoonCarousel />
     <Cycle01 />
     <Cycle02 />
+    <Cycle03 />
+    <Cycle04 />
   </Layout>
 )
 

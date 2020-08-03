@@ -26,6 +26,9 @@ add `position:absolute` to keep it center without showing both elements animatin
 color could be animatable only when its two values are in same format, color name to color name, hex to hex,
 `'bisque' to '#0066FF'` won't work and vice versa.
 
+### 8.3 
+`Unhandled Rejection (TypeError): input.match is not a function` component Cycle03 after the first click fails
 
+variants in useCycle syntax
 <!-- AUTO-GENERATED-CONTENT:END -->
 
