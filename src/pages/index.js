@@ -20,6 +20,7 @@ import Cycle01 from '../components/cycle01'
 import Cycle02 from '../components/cycle02'
 import Cycle03 from '../components/cycle03'
 import Cycle04 from '../components/cycle04'
+import Cycle05 from '../components/cycle05'
 
 const IndexPage = () => (
   <Layout>
@@ -37,6 +38,7 @@ const IndexPage = () => (
     <Cycle02 />
     <Cycle03 />
     <Cycle04 />
+    <Cycle05 />
   </Layout>
 )
 
