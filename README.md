@@ -33,6 +33,8 @@ variants in useCycle syntax
 
 ### 8.4
 
+### 8.5
+
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 

@@ -21,6 +21,7 @@ import Cycle02 from '../components/cycle02'
 import Cycle03 from '../components/cycle03'
 import Cycle04 from '../components/cycle04'
 import Cycle05 from '../components/cycle05'
+import UseAnimation01 from '../components/useanimation01'
 
 const IndexPage = () => (
   <Layout>
@@ -39,6 +40,7 @@ const IndexPage = () => (
     <Cycle03 />
     <Cycle04 />
     <Cycle05 />
+    <UseAnimation01 />
   </Layout>
 )
 
