@@ -23,7 +23,6 @@ export default function UseAnimation02() {
           cursor: "grab",
           position: "absolute",
         }}
-        // Dragging
         drag
         animate={controls}
         onDragEnd={() => {
