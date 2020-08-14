@@ -43,7 +43,7 @@ export default function UseAnimation04() {
   return (
     <div
       style={{
-        width: 800,
+        width: 600,
         height: 400,
         background: "LIGHTSLATEGRAY",
         display: "inline-flex",
@@ -57,6 +57,7 @@ export default function UseAnimation04() {
           height: 100,
           borderRadius: 20,
           background: "white",
+          cursor: "pointer",
         }}
         animate={animation}
         onTap={() => sequence()}

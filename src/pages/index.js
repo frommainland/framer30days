@@ -24,6 +24,8 @@ import UseAnimation01 from "../components/useanimation01"
 import UseAnimation02 from "../components/useanimation02"
 import UseAnimation03 from "../components/useanimation03"
 import UseAnimation04 from "../components/useanimation04"
+import UseAnimation05 from "../components/useanimation05"
+import UseAnimation06 from "../components/useanimation06"
 
 const IndexPage = () => (
   <Layout>
@@ -46,6 +48,8 @@ const IndexPage = () => (
     <UseAnimation02 />
     <UseAnimation03 />
     <UseAnimation04 />
+    <UseAnimation05 />
+    <UseAnimation06 />
   </Layout>
 )
 
