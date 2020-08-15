@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion"
 
 export default function UseAnimation06() {
   const control = useAnimation()
-  const bgColor = ["indianred", "khaki", "springgreen", "cyan"]
+  // const bgColor = ["indianred", "khaki", "springgreen", "cyan"]
 
   // let divs = []
   // for (let index = 0; index < 4; index++) {
@@ -18,25 +18,22 @@ export default function UseAnimation06() {
   //         display: "inline-block",
   //         perspective: 800,
   //       }}
-  //       onTap={() =>
-  //         async function sequence() {
-  //           await control.start({
-  //             rotateY: 180,
-  //             // background: bgColor[index],
-  //             background: "red",
-  //             transition: {
-  //               duration: 1,
-  //             },
-  //           })
-  //           control.start({
-  //             rotateY: 0,
-  //             background: "white",
-  //             transition: {
-  //               duration: 1,
-  //             },
-  //           })
-  //         }
-  //       }
+  //       onTap={async () => {
+  //         await control.start({
+  //           rotateY: 180,
+  //           background: bgColor[index],
+  //           transition: {
+  //             duration: 1,
+  //           },
+  //         })
+  //         control.start({
+  //           rotateY: 0,
+  //           background: "white",
+  //           transition: {
+  //             duration: 1,
+  //           },
+  //         })
+  //       }}
   //       animate={control}
   //     ></motion.div>
   //   )
@@ -66,6 +63,7 @@ export default function UseAnimation06() {
           await control.start(custom => ({
             rotateY: 180,
             backgroundColor: custom,
+            borderWidth: 1,
             transition: { duration: 1 },
           }))
           control.start({
