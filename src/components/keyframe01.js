@@ -7,11 +7,11 @@ export default function Keyframe01() {
     control.start({
       x: [0, 200, 200, 0, 0],
       y: [0, 0, 200, 200, 0],
-      // background: ["#FA0", "#60F", "#FA0"],
-      // rotate: 360,
+      background: ["#FA0", "#60F", "#60F", "#60F", "#FA0"],
+      rotate: 360,
       transition: {
         duration: 4,
-        times: [0, 0.08, 0.16, 1],
+        times: [0, 0.08, 0.16, 0.25, 1],
       },
     })
   }

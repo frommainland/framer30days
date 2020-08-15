@@ -39,4 +39,8 @@ variants in useCycle syntax
 
 useAnimation case was working after update framer-motion to latest 2.4.1 from 2.0.0
 
+### 8.16
+
+keyframe times prop needs to be the same with animate prop, otherwise, it will only animate the lesser
+
 <!-- AUTO-GENERATED-CONTENT:END -->
