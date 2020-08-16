@@ -30,7 +30,7 @@ export default function Keyframe01() {
           width: 100,
           height: 100,
           borderRadius: 20,
-          background: "white",
+          background: "#FA0",
         }}
         animate={control}
         whileHover={{
