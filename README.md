@@ -41,6 +41,8 @@ useAnimation case was working after update framer-motion to latest 2.4.1 from 2.
 
 ### 8.16
 
-keyframe times prop needs to be the same with animate prop, otherwise, it will only animate the lesser
+keyframe times prop needs to be the same with animate prop, otherwise, it will only animate the lesser.
+
+### 8.18
 
 <!-- AUTO-GENERATED-CONTENT:END -->

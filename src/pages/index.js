@@ -28,6 +28,7 @@ import UseAnimation05 from "../components/useanimation05"
 import UseAnimation06 from "../components/useanimation06"
 import Keyframe01 from "../components/keyframe01"
 import Keyframe02 from "../components/keyframe02"
+import Keyframe03 from "../components/keyframe03"
 
 const IndexPage = () => (
   <Layout>
@@ -54,6 +55,7 @@ const IndexPage = () => (
     <UseAnimation06 />
     <Keyframe01 />
     <Keyframe02 />
+    <Keyframe03 />
   </Layout>
 )
 
